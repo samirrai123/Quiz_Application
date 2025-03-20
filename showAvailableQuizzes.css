@@ -1,0 +1,38 @@
+/* Title styles for QuizApp page */
+.title {
+    -fx-font-size: 24px;
+    -fx-text-fill: #FFFFFF; /* White text for better contrast */
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 1); /* Add shadow for better visibility */
+}
+
+/* Button styles for QuizApp page */
+.button {
+    -fx-font-size: 16px;
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 3, 0, 0, 1); /* Add shadow for better visibility */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #3d8b40; /* Even darker green when pressed */
+}
+
+/* VBox layout styles for QuizApp page */
+.vbox {
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+    -fx-padding: 20px;
+    -fx-background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+}

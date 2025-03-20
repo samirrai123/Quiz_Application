@@ -1,0 +1,75 @@
+/* Title styles for QuizApp page */
+.title {
+    -fx-font-size: 24px;
+    -fx-text-fill: #FFFFFF; /* White text for better contrast */
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 1); /* Add shadow for better visibility */
+}
+
+/* Button styles for QuizApp page */
+.button {
+    -fx-font-size: 16px;
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 3, 0, 0, 1); /* Add shadow for better visibility */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #3d8b40; /* Even darker green when pressed */
+}
+
+/* VBox layout styles for QuizApp page */
+.vbox {
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+    -fx-padding: 20px;
+    -fx-background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+}
+
+/* Timer label styles */
+.time-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF; /* White text for better contrast */
+}
+
+/* Question number label styles */
+.question-number-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #FFFFFF; /* White text for better contrast */
+}
+
+/* Question text label styles */
+.question-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF; /* White text for better contrast */
+    -fx-padding: 0 0 20px 0;
+}
+
+/* RadioButton (options) styles */
+.radio-button {
+    -fx-font-size: 16px; /* Medium font size */
+    -fx-text-fill: #FFFFFF; /* White text for better contrast */
+    -fx-padding: 5px 0; /* Space between options */
+}
+
+.radio-button .dot {
+    -fx-mark-highlight-color: #4CAF50; /* Green highlight color */
+    -fx-mark-color: #4CAF50; /* Green dot color */
+}
+
+.radio-button:selected .dot {
+    -fx-background-color: #4CAF50; /* Green background for selected dot */
+}

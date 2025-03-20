@@ -1,0 +1,63 @@
+/* Title styles for Login and Registration pages */
+.title {
+    -fx-font-size: 24px;
+    -fx-text-fill: #FFFFFF; /* White text for better contrast */
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 1); /* Add shadow for better visibility */
+}
+
+/* Button styles for Login and Registration pages */
+.button {
+    -fx-font-size: 16px;
+    -fx-background-color: #FFA500; /* Orange background */
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 3, 0, 0, 1); /* Add shadow for better visibility */
+}
+
+.button:hover {
+    -fx-background-color: #cc8400; /* Darker orange on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #a66900; /* Even darker orange when pressed */
+}
+
+/* TextField and PasswordField styles for Login and Registration pages */
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    -fx-pref-width: 300px;
+    -fx-background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #FFA500; /* Orange border when focused */
+}
+
+/* Checkbox styles for Login and Registration pages */
+.checkbox {
+    -fx-text-fill: #FFFFFF; /* White text for better contrast */
+    -fx-font-size: 14px;
+}
+
+/* RadioButton styles for Login and Registration pages */
+.radio-button {
+    -fx-text-fill: #FFFFFF; /* White text for better contrast */
+    -fx-font-size: 14px;
+}
+
+.radio-button .dot {
+    -fx-mark-highlight-color: #FFA500; /* Orange highlight color */
+    -fx-mark-color: #FFA500; /* Orange dot color */
+}
+
+.radio-button:selected .dot {
+    -fx-background-color: #FFA500; /* Orange background for selected dot */
+}
